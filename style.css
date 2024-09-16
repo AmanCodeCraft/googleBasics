@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.sign-in{
+    background-color: blue;
+    height: 25px;
+    width: 80px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.google{
+    height: 300px;
+    width: 450px;
+}
+.Search-box{
+    height: 30px;
+    width: 380px;
+    padding-left: 25px;
+    border-radius: 5px;
+    background-image: url(./icons/search.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.footer-left{
+    display: flex;
+    gap: 13px;
+}
+.footer-right{
+    display: flex;
+    gap: 13px;
+    justify-content: flex-end;
+}
