@@ -8,7 +8,12 @@ a{
 .Nav{
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
+}
+main{
+    display: inline-flex;
+    align-items: center;
 }
 .sign-in{
     background-color: blue;
@@ -17,26 +22,36 @@ a{
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .google{
-    height: 300px;
-    width: 450px;
+    height: 220px;
+    width: 320px;
 }
 .Search-box{
-    height: 30px;
-    width: 380px;
-    padding-left: 25px;
-    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+    padding-left: 30px;
+    border-radius:10px;
     background-image: url(./icons/search.png);
     background-position: left;
     background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 8px;
+    border-style: solid;
+    font-size: 15px;
+}
+footer{
+    position:fixed;
+    bottom: 0px; 
 }
 .footer-left{
     display: flex;
+    justify-content: flex-start ;
     gap: 13px;
 }
 .footer-right{
     display: flex;
-    gap: 13px;
     justify-content: flex-end;
+    gap: 13px;
 }
