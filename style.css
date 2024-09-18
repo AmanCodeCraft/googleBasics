@@ -33,7 +33,7 @@ main{
 }
 .Search-box{
     height: 40px;
-    width: 500px;
+    width: 550px;
     padding-left: 38px;
     border-radius:25px;
     background-image: url(./icons/search.png);
