@@ -44,6 +44,9 @@ main{
     border-style: solid;
     font-size: 15px;
 }
+.Search-box:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
 footer{
     position:fixed;
     bottom: 0px; 
